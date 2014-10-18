@@ -11,8 +11,29 @@ body {
 .header-wrapper {
   width: 100%;
   height: 770px;
-  background-image: url('../images/Brenard.jpg'); 
+  background: linear-gradient(rgba(0,66,69,0.55), rgba(0,66,69,0.45)),url(../images/photo1.jpg) fixed center center;
   background-size: cover;
+
+  .img-container {
+    width: 40%;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+
+    .nav-list {
+      width: 100%;
+
+      li {
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 22px;
+      }
+    }
+  }
 }
 
 .mission-wrapper {
@@ -74,6 +95,11 @@ body {
     text-align: center;
     background-color: #671549;
     border-radius: 3px;
+
+    &:hover {
+      background-color: #087E92;
+      transition: all 0.2s ease;
+    }
   }
 }
 
@@ -97,6 +123,11 @@ body {
     a {
       text-decoration: none;
       color: black;
+
+      &:hover {
+      color: #671549;
+      transition: all 0.2s ease;
+    }
     }
   } 
 }
@@ -115,7 +146,13 @@ body {
   }
 
   li {
+    width: 50px;
     list-style: none;
     font-size: 20px;
+
+    &:hover {
+      color: #671549;
+      transition: all 0.2s ease;
+    }
   }
 }
