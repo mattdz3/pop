@@ -1,0 +1,59 @@
+// bower:scss
+// endbower
+
+body {
+  margin: 0;
+}
+
+.header-wrapper {
+  width: 100%;
+
+  .fixed-header {
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    background-color: teal;
+    position: fixed;
+
+    img {
+      width: 100px;
+    }
+
+    .header-list {
+      float: right;
+      margin-right: 50px;
+      display: inline-block;
+
+      li {
+        font-size: 20px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .header-cont {
+    padding-top: 110px;
+
+    img {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+
+.mission-wrapper {
+  width: 100%;
+
+  h1 {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .mission-contents {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
