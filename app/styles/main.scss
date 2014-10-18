@@ -44,16 +44,41 @@ body {
 .mission-wrapper {
   width: 100%;
 
-  h1 {
-    width: 20%;
-    margin: 0 auto;
-    margin-top: 50px;
+  img {
+    margin-top: 80px;
+    margin-left: 120px;
   }
 
   .mission-contents {
-    width: 60%;
-    margin: 0 auto;
+    width: 50%;
+    float: right;
+    margin-right: 100px;
     margin-top: 50px;
     text-align: center;
+
+    h1 {
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 40px;
+    }
+  }
+}
+
+.donate {
+  width: 100%;
+  margin-top: 100px;
+
+  h1 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+
+  p {
+    width: 60%;
+    margin: 0 auto;
   }
 }
