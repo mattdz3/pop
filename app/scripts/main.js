@@ -38,14 +38,14 @@ $('.to-tool').click(function() {
 //   token_secret: 'U3xowPpEK3DyQsyre7c8zo8B0wIh3WX5fPfbvJ4Etu8iyFYwAD'
 // });
 
-$.ajax({
-    url: "http://api.tumblr.com/v2/blog/matt-dougherty.tumblr.com/info?api_key=5c6QfJy1LCZNPY3W5T6axBQuuwcpu3Pzou4uT0iCtzmARo2lFk",
-    dataType: 'jsonp',
-    success: function(results){
-        console.log(results); 
-        $(".blog").text(results.response.blog.title); 
-        $(".blog-desc").text(results.response.blog.description);
-        $(".blog-name").text(results.response.blog.name); 
-    }
-});
+// $.ajax({
+//     url: "http://api.tumblr.com/v2/blog/matt-dougherty.tumblr.com/info?api_key=5c6QfJy1LCZNPY3W5T6axBQuuwcpu3Pzou4uT0iCtzmARo2lFk",
+//     dataType: 'jsonp',
+//     success: function(results){
+//         console.log(results); 
+//         $(".blog").text(results.response.blog.title); 
+//         $(".blog-desc").text(results.response.blog.description);
+//         $(".blog-name").text(results.response.blog.name); 
+//     }
+// });
 
