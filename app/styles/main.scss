@@ -37,9 +37,10 @@ body {
         font-size: 30px;
         width: 15%;
         color: white;
+        cursor: pointer;
 
         &:hover {
-          color: #671549;
+          color: #8F888D;
           transition: all 0.2s ease;
         }
       }
@@ -78,9 +79,51 @@ body {
   }
 }
 
+.mentor-cont {
+  text-align: center;
+
+  .mentor {
+    margin-top: 140px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .mentor-tool {
+    width: 90%;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 3px;
+    box-shadow: 0 0 1px;
+  }
+
+  .mentor-button {
+    width: 8%;
+    padding: 7px;
+    margin: 0 auto;
+    color: #9D9D9D;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #671549;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #087E92;
+      transition: all 0.2s ease;
+    }
+  }
+
+  a {
+      text-decoration: none;
+    }
+}
+
+
 .get-involved {
   width: 100%;
-  margin-top: 280px;
+  margin-top: 100px;
 
   h1 {
     width: 80%;
@@ -108,16 +151,65 @@ body {
     text-align: center;
     background-color: #671549;
     border-radius: 3px;
+    cursor: pointer;
 
     &:hover {
       background-color: #087E92;
       transition: all 0.2s ease;
     }
   }
+
+  a {
+    text-decoration: none;    
+  }
+}
+
+
+
+.client-cont {
+  text-align: center;
+
+  .client {
+    margin-top: 140px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  .client-tool {
+    width: 90%;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 3px;
+    box-shadow: 0 0 1px;
+  }
+
+  .client-button {
+    width: 8%;
+    padding: 7px;
+    margin: 0 auto;
+    color: #9D9D9D;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #671549;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #087E92;
+      transition: all 0.2s ease;
+    }
+  }
+  
+  a {
+      text-decoration: none;
+    }
 }
 
 .contact-wrapper {
-  margin-top: 200px;
+  margin-top: 140px;
+  margin-bottom: 140px;
 
   h1 {
     width: 40%;
@@ -164,9 +256,10 @@ body {
     height: 40px;
     list-style: none;
     font-size: 20px;
+    cursor: pointer;
 
     &:hover {
-      color: #671549;
+      color: #8F888D;
       transition: all 0.2s ease;
     }
   }
@@ -187,6 +280,20 @@ body {
     float: right;
     width: 40%;
     font-size: 20px;
+
+    p {
+      font-size: 25px;
+      cursor: pointer;
+
+      &:hover {
+        color: #8F888D;
+        transition: all 0.2s ease;
+      }
+    }
+
+    .blog {
+      margin-top: 30px;
+    }
   }
 
   img {
