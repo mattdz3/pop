@@ -1,5 +1,13 @@
 // bower:scss
 // endbower
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+h1, h2, p {
+  color: #433A3A;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 body {
   margin: 0;
@@ -38,10 +46,11 @@ body {
         width: 15%;
         color: white;
         cursor: pointer;
+        transition: all 0.3s ease;
 
         &:hover {
           color: #8F888D;
-          transition: all 0.2s ease;
+          transition: all 0.3s ease;
         }
       }
     }
@@ -55,7 +64,7 @@ body {
     width: 25%;
     margin-top: 140px;
     margin-left: 120px;
-    border: 1px solid black;
+    border: 1px solid #7E7E7E;
     border-radius: 3px;
   }
 
@@ -67,6 +76,7 @@ body {
     text-align: center;
 
     h1 {
+      color: #433A3A;
       width: 50%;
       margin: 0 auto;
       margin-bottom: 50px;
@@ -86,7 +96,7 @@ body {
     margin-top: 140px;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
 
   .mentor-tool {
@@ -98,20 +108,22 @@ body {
 
   .mentor-button {
     width: 8%;
-    padding: 7px;
+    padding: 14px 10px;
     margin: 0 auto;
-    color: #9D9D9D;
+    color: #e1e1e1;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     background-color: #671549;
     border-radius: 3px;
     cursor: pointer;
     text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 
     &:hover {
-      background-color: #087E92;
-      transition: all 0.2s ease;
+      background-color: #500F38;
+      transition: all 0.3s ease;
     }
   }
 
@@ -129,7 +141,7 @@ body {
     width: 80%;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 40px;
   }
 
@@ -143,19 +155,22 @@ body {
 
   .join {
     width: 8%;
-    padding: 7px;
+    padding: 14px 10px;
     margin: 0 auto;
-    color: #9D9D9D;
-    margin-top: 40px;
-    font-size: 25px;
+    color: #e1e1e1;
+    margin-top: 20px;
+    font-size: 18px;
     text-align: center;
     background-color: #671549;
     border-radius: 3px;
     cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
 
     &:hover {
-      background-color: #087E92;
-      transition: all 0.2s ease;
+      background-color: #500F38;
+      transition: all 0.3s ease;
     }
   }
 
@@ -185,20 +200,22 @@ body {
 
   .client-button {
     width: 8%;
-    padding: 7px;
+    padding: 14px 10px;
     margin: 0 auto;
-    color: #9D9D9D;
+    color: #e1e1e1;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     background-color: #671549;
     border-radius: 3px;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
 
     &:hover {
-      background-color: #087E92;
-      transition: all 0.2s ease;
+      background-color: #500F38;
+      transition: all 0.3s ease;
     }
   }
   
